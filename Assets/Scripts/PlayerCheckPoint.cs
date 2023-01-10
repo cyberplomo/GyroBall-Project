@@ -4,30 +4,28 @@ using UnityEngine;
 
 public class PlayerCheckPoint : MonoBehaviour
 {
-    public GameObject flag;
+    public Transform chracter;
     private Vector3 spawnPoint;
-    
-    // Start is called before the first frame update
     void Start()
     {
-        spawnPoint = gameObject.transform.position;
+        
     }
-
-    // Update is called once per frame
     void Update()
     {
-        if (gameObject.transform.position.y < -20f)
+        if (chracter.transform.position.y < -20f)
         {
-            gameObject.transform.position = spawnPoint;
+            chracter.position = spawnPoint;
+            
         }
     }
-
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("CheckPoint"))
+        
+        if (other.CompareTag("CheckPoint"))
         {
-            spawnPoint = flag.transform.position;
-            Destroy(flag);
+            spawnPoint = other.transform.position;
+            //Destroy(flag);
         }
+        
     }
 }

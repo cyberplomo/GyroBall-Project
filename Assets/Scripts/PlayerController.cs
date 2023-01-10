@@ -44,6 +44,11 @@ public class PlayerController : MonoBehaviour
 			other.gameObject.SetActive (false);	
 			
 		}
+		if (other.gameObject.CompareTag("CheckPoint2"))
+		{
+			other.gameObject.SetActive (false);	
+			
+		}
 	}
 	void SetCountText ()
 	{

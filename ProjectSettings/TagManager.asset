@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pickup
   - CheckPoint
+  - Enemy
+  - CheckPoint2
   layers:
   - Default
   - TransparentFX
