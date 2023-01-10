@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerCheckPoint : MonoBehaviour
 {
     public Transform chracter;
+    
     private Vector3 spawnPoint;
     void Start()
     {
@@ -15,8 +16,8 @@ public class PlayerCheckPoint : MonoBehaviour
         if (chracter.transform.position.y < -20f)
         {
             chracter.position = spawnPoint;
-            
         }
+        
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -24,8 +25,18 @@ public class PlayerCheckPoint : MonoBehaviour
         if (other.CompareTag("CheckPoint"))
         {
             spawnPoint = other.transform.position;
-            //Destroy(flag);
+            
+        }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            //Destroy(gameObject);
+            spawn();
+
         }
         
+    }
+    private void spawn()
+    {
+        chracter.position = spawnPoint;
     }
 }
