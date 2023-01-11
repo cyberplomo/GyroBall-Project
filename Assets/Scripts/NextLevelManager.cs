@@ -10,8 +10,8 @@ public class NextLevelManager : MonoBehaviour
     private void Start()
     {
         buildIndex=SceneManager.GetActiveScene().buildIndex;
-        Text levelText = GameObject.Find("LevelText").GetComponent<Text>();
-        levelText.text="Level_"+buildIndex.ToString();
+        //Text levelText = GameObject.Find("LevelText").GetComponent<Text>();
+        //levelText.text="Level_"+buildIndex.ToString();
     }
 
     public void NextLevel()

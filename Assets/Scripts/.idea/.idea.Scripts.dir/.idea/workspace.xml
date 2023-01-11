@@ -9,7 +9,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Camera_Script.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NextLevelManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MenuButtons.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NextLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerCheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,6 +47,16 @@
       <workItem from="1673352111706" duration="7270000" />
       <workItem from="1673430883784" duration="76000" />
       <workItem from="1673439758084" duration="495000" />
+      <workItem from="1673450531211" duration="560000" />
+      <workItem from="1673451105974" duration="193000" />
+      <workItem from="1673452288952" duration="385000" />
+      <workItem from="1673452687319" duration="153000" />
+      <workItem from="1673452929880" duration="146000" />
+      <workItem from="1673453113370" duration="140000" />
+      <workItem from="1673453279657" duration="301000" />
+      <workItem from="1673453707260" duration="237000" />
+      <workItem from="1673454157456" duration="9000" />
+      <workItem from="1673454931664" duration="1088000" />
     </task>
     <servers />
   </component>
