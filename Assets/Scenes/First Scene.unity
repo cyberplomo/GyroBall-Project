@@ -227,6 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1104071077}
   - component: {fileID: 1104071076}
+  - component: {fileID: 1104071079}
   - component: {fileID: 1104071078}
   - component: {fileID: 1104071075}
   m_Layer: 0
@@ -309,7 +310,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104071074}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17d0f994b1cd5c74b8565a1a04309619, type: 3}
   m_Name: 
@@ -324,6 +325,24 @@ MonoBehaviour:
   doZoom: 0
   zoomStep: 30
   zoomSpeed: 10
+--- !u!114 &1104071079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104071074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ba758a16c8b064b96126d47aa5d289, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1944320459}
+  distance: 20
+  smoothSpeed: 2
+  offset: {x: 0, y: 3, z: 3}
+  rotationSpeed: 10000
+  lookAheadDistance: 10
 --- !u!4 &1944320459 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6391495062927951330, guid: 7330ad13f8ae4334b9d7bee2801ab851, type: 3}

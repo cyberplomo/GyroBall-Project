@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CameraSc.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Camera_Script.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuButtons.cs" root0="SKIP_HIGHLIGHTING" />
@@ -57,6 +58,9 @@
       <workItem from="1673453707260" duration="237000" />
       <workItem from="1673454157456" duration="9000" />
       <workItem from="1673454931664" duration="1088000" />
+      <workItem from="1673458229623" duration="2000" />
+      <workItem from="1673458244257" duration="13000" />
+      <workItem from="1673458307824" duration="208000" />
     </task>
     <servers />
   </component>
