@@ -13,7 +13,7 @@ public class PlayerCheckPoint : MonoBehaviour
     }
     void Update()
     {
-        if (chracter.transform.position.y < -20f)
+        if (chracter.transform.position.y < -0.1f)
         {
             chracter.position = spawnPoint;
         }

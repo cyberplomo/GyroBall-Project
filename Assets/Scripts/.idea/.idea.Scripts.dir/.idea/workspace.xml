@@ -12,7 +12,7 @@
     <setting file="file://$PROJECT_DIR$/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MenuButtons.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NextLevelManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PlayerCheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerCheckPoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../RollABall-Project/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,6 +61,9 @@
       <workItem from="1673458244257" duration="13000" />
       <workItem from="1673458307824" duration="208000" />
       <workItem from="1673473716021" duration="409000" />
+      <workItem from="1673536103004" duration="79000" />
+      <workItem from="1673536497033" duration="124000" />
+      <workItem from="1673536751196" duration="213000" />
     </task>
     <servers />
   </component>
