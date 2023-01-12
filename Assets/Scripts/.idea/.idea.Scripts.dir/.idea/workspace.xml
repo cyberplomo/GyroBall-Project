@@ -16,6 +16,7 @@
     <setting file="file://$PROJECT_DIR$/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/sahnegecis.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Library/PackageCache/com.unity.services.analytics@4.2.0/Runtime/AnalyticsServiceInstance.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../RollABall-Project/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -70,6 +71,7 @@
       <workItem from="1673555152994" duration="6000" />
       <workItem from="1673555600099" duration="112000" />
       <workItem from="1673555734672" duration="154000" />
+      <workItem from="1673557829416" duration="235000" />
     </task>
     <servers />
   </component>
