@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/PlayerCheckPoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/sahnegecis.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../RollABall-Project/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,6 +65,11 @@
       <workItem from="1673536103004" duration="79000" />
       <workItem from="1673536497033" duration="124000" />
       <workItem from="1673536751196" duration="213000" />
+      <workItem from="1673552641372" duration="1657000" />
+      <workItem from="1673555139403" duration="2000" />
+      <workItem from="1673555152994" duration="6000" />
+      <workItem from="1673555600099" duration="112000" />
+      <workItem from="1673555734672" duration="154000" />
     </task>
     <servers />
   </component>

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3017954631098527867}
   - component: {fileID: 3017954631098527866}
   - component: {fileID: 3017954631098527865}
+  - component: {fileID: 2934261964645183382}
   - component: {fileID: 3017954631098527864}
   m_Layer: 0
   m_Name: Plane
@@ -84,6 +85,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2934261964645183382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3017954631098527863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466b5a8b75eea1b4995c2ad36ca335db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {x: 0, y: 0, z: 0}
+  pointB: {x: 0, y: 0, z: 0}
+  speed: 2
 --- !u!64 &3017954631098527864
 MeshCollider:
   m_ObjectHideFlags: 0
